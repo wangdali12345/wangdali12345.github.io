@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+
+# AI crawlers — 明确允许
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# 字节跳动/豆包爬虫
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://suzhouguogong.github.io/sitemap.xml
